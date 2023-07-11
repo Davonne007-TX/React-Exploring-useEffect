@@ -35,14 +35,14 @@ function App() {
 
   return (
     <>
-    <center>
+    <center className="window-container">
       <h1>Exploring useEffect</h1>
       <p>The Window Length is: {windowWidth} </p>
 
       <input 
       value={name}
       onChange={(e => setName(e.target.value))}
-      placeholder='Enter a name' />
+      placeholder="Please Enter Your Name" className="myInput"/>
      
     </center>
     </>
