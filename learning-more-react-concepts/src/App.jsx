@@ -37,7 +37,7 @@ function App() {
     <>
     <center className="window-container">
       <h1>Exploring useEffect</h1>
-      <p>The Window Length is: {windowWidth} </p>
+      <p>The Window Length is: {windowWidth}, <br/> re-size window size to see change </p>
 
       <input 
       value={name}
