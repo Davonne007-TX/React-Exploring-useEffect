@@ -42,7 +42,7 @@ function App() {
       <input 
       value={name}
       onChange={(e => setName(e.target.value))}
-      placeholder="Please Enter Your Name" className="myInput"/>
+      placeholder="Insert Text & Check console.log" className="myInput"/>
      
     </center>
     </>

@@ -7,13 +7,21 @@
 
 h1 {
   color: green;
-  font-family: cursive;
+  font-family: 'Caprasimo', cursive;
   font-size: 32pt;
+}
+
+p {
+  font-family: 'Caprasimo', cursive;
 }
 
 .myInput {
   padding: 15px;
   border-radius: 12px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 340px;
+  font-size: 14pt;
+  text-align: center;
 }
 
 .window-container {
